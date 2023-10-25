@@ -23,7 +23,8 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-        ],
+            'console_scripts': [
+                    'initial_pose_pub = localizer_server.initial_pose_pub.py:main',
+            ],
     },
 )
