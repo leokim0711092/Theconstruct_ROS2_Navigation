@@ -24,6 +24,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'nav_to_pose_action_client = path_planner_server.nav_to_pose_action_client.py:main',
+
         ],
     },
 )
